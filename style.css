@@ -1,0 +1,57 @@
+@charset "UTF-8";
+body {
+	background-image: url(bg.gif);
+}
+bullet point {
+	background-image: url(bullet.gif);
+}
+body img {
+	-webkit-box-shadow: 0px 0px #FF49F2;
+	box-shadow: 0px 0px #FF49F2;
+	border-radius: 0px;
+	border: thick solid #E74279;
+	border-spacing: 12px 12px;
+	margin-right: 0px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+body h1 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #E74379;
+	text-shadow: 1px 1px #000000;
+}
+a {
+	color: #E74279;
+}
+body h3 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+	background-color: #E74279;
+	border-radius: 97px;
+	background-image: url(h3-background.gif);
+	background-size: contain;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background-repeat: no-repeat;
+	background-position: 99% 0%;
+}
+ul li {
+	color: #E74279;
+	-webkit-box-shadow: inset 0px 0px;
+	box-shadow: inset 0px 0px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	list-style-position: inside;
+	list-style-image: url(bullet.gif);
+}
+body hr {
+	border-style: dashed;
+	border-color: #E74279;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+body p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
